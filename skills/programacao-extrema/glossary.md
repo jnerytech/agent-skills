@@ -1,0 +1,57 @@
+# Glossário — Programação eXtrema (XP)
+
+Termos do dicionário da XP (1ª ed., Kent Beck). Capítulo de referência entre parênteses.
+
+- **Aceitação de responsabilidades** — responsabilidade é aceita, não dada; base do planejamento sem top-down (Ch 8).
+- **Carga de trabalho (load factor)** — razão entre tempo de programação ideal e calendário; tipicamente entre 2 e 4 (Ch 15).
+- **Caso de teste (test case)** — conjunto automatizado de estímulos e respostas; deve deixar o sistema no mesmo estado em que o encontrou, para rodar independente (Ch 9, 18).
+- **Cliente (Customer)** — papel: escolhe histórias, prioriza, e define testes que verificam o funcionamento das histórias (Ch 22).
+- **Coragem** — quarto valor; acelerar no contexto dos outros três (jogar código fora, consertar arquitetura) (Ch 7).
+- **Comunicação** — primeiro valor; manter o fluxo certo de informação via práticas que a exigem (Ch 7).
+- **Cronograma de comprometimento (commitment schedule)** — uma entrega + uma data; refinado uma iteração por vez (Ch 15).
+- **Curva de custo das modificações** — premissa técnica central; achatada por projeto simples + testes + refatoração (Ch 5).
+- **Entrega (release)** — pilha de histórias com relevância conjunta para os Negócios; disponibiliza 100% do funcional (Ch 10, 15).
+- **Entropia** — tendência do sistema a apresentar mais erros e modificações mais caras com o tempo (Ch 9, 21).
+- **Episódio de desenvolvimento** — o "pulso" da XP: tarefa→par→teste→código→refatoração→integração (Ch 2, 16).
+- **Escopo** — a mais maleável das quatro variáveis; principal forma de controle (Ch 4).
+- **Exploração** — fase em que o cliente informa o que o sistema todo poderia fazer (Ch 15, 21).
+- **Feedback** — terceiro valor; "otimismo é a doença, feedback é o tratamento" (Ch 7).
+- **Fator de carga de trabalho** — ver Carga de trabalho.
+- **Gerente (manager)** — papel: aloca recursos; "escudo" da equipe (Ch 8, 22).
+- **História (story)** — algo que o cliente quer que o sistema faça; estimável em 1–5 semanas ideais; deve ser testável (Ch 15).
+- **Integração contínua** — integrar e testar a 100% várias vezes ao dia (Ch 10, 16).
+- **Iteração** — período de 1 a 4 semanas; cliente escolhe histórias no início, roda testes funcionais no fim (Ch 15).
+- **Jogo do Planejamento (Planning Game)** — processo de planejamento; Negócios dizem o quê, Desenvolvimento diz o custo (Ch 10, 15).
+- **Jogar para ganhar** — fazer só o que ajuda o time a vencer; oposto de papelada defensiva (Ch 8).
+- **Metáfora do sistema (system metaphor)** — história compartilhada de como o sistema funciona; substitui boa parte da "arquitetura" (Ch 10, 17).
+- **Mudanças incrementais** — princípio: resolver com a menor série de mudanças que faz diferença (Ch 8).
+- **Once and only once (uma e somente uma vez)** — regra: comunicar tudo + zero duplicação de lógica (Ch 10, 17).
+- **Opções (abandonar/trocar/adiar/crescer)** — visão econômica do projeto como série de opções (Ch 3).
+- **Parceiro (partner)** — a outra pessoa programando com você (também: piloto/co-piloto) (Ch 16).
+- **Plano de iteração (iteration plan)** — pilha de histórias + pilha de tarefas; programadores se candidatam e estimam (Ch 15).
+- **Produção** — fase em que o cliente efetivamente ganha dinheiro com o sistema (Ch 21).
+- **Programação em pares (pair programming)** — dois programam com um teclado/mouse/monitor; pares trocam ~2x/dia (Ch 10, 16).
+- **Programador** — papel: analisa, projeta, testa, programa e integra; o coração da XP (Ch 22).
+- **Projeto simples (simple design)** — o mais simples que passa os testes; 4 critérios em ordem (Ch 10, 17).
+- **Propriedade coletiva (collective ownership)** — qualquer um muda qualquer código a qualquer hora (Ch 10, 16).
+- **Quatro atividades** — codificar, testar, ouvir, projetar (Ch 9).
+- **Quatro variáveis** — custo, tempo, qualidade, escopo (Ch 4).
+- **Rastreador (tracker)** — papel: mede progresso por números; "consciência do time" (Ch 22).
+- **Recuperação (recovery)** — movimento de planejamento: preserva a data reduzindo escopo (Ch 15).
+- **Reestimativa** — movimento de planejamento: reestimar todas as histórias remanescentes (Ch 15).
+- **Refatoração (refactoring)** — mudança que mantém o comportamento e melhora qualidades não-funcionais (simplicidade, legibilidade, desempenho) (Ch 10, 17).
+- **Respeito** — o quinto valor, oculto sob os outros quatro (Ch 7).
+- **Semana de 40 horas** — máximo 40h; nunca hora extra em duas semanas seguidas (Ch 10).
+- **Simplicidade** — segundo valor; "a coisa mais simples que poderia funcionar" (Ch 7).
+- **Simplicidade presumida** — princípio: tratar cada problema como se tivesse solução ridiculamente simples (Ch 8).
+- **Síndrome da Primeira Terça** — não saber como implementar histórias no dia seguinte ao planejamento (Ch 24).
+- **Tarefa de engenharia (engineering task)** — algo que o programador sabe que o sistema precisa; estimável em 1–3 dias ideais (Ch 15).
+- **Tempo ideal de programação** — "quanto levaria sem distrações ou acidentes?" (Ch 15).
+- **Teste de unidade (unit test)** — teste sob a perspectiva do programador; executa a 100% (Ch 18).
+- **Teste do macaco** — garante reação adequada a entradas sem sentido (Ch 18).
+- **Teste funcional** — teste sob a perspectiva do cliente; medido em porcentagem (Ch 18).
+- **Teste paralelo** — prova que o novo sistema funciona como o antigo (mostra diferenças) (Ch 18).
+- **Testes automatizados** — caso de teste que executa sem intervenção humana (Ch 18).
+- **Treinador (coach)** — papel: observa o processo como um todo e aponta problemas/oportunidades (Ch 8, 22).
+- **Velocidade do time (team speed)** — semanas ideais de programação produzidas num período (Ch 8, 15).
+- **Viajar com pouca bagagem** — princípio: manter poucos artefatos, simples e valiosos (Ch 8).
