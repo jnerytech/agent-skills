@@ -10,6 +10,23 @@ npx skills add jnerytech/agent-skills --skill kafka-in-action    # install one
 npx skills add jnerytech/agent-skills -s google-sre -s accelerate  # install several
 ```
 
+### Claude Code
+
+`-a claude-code` installs straight into Claude Code's skills folder and skips the agent picker:
+
+```bash
+# project-level → ./.claude/skills/<name>
+npx skills add jnerytech/agent-skills -a claude-code -s apache-kafka-docs -y
+
+# user-level (every project) → ~/.claude/skills/<name>
+npx skills add jnerytech/agent-skills -a claude-code -s apache-kafka-docs -g -y
+
+# everything
+npx skills add jnerytech/agent-skills -a claude-code -s '*' -g -y
+```
+
+Restart Claude Code (or open a new session) to pick up the new skills; they appear under `/skills`. To update later: `npx skills update`.
+
 Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base skills also contain `chapters/`, `glossary.md`, `patterns.md` and `cheatsheet.md`.
 
 ## Tools (6)
