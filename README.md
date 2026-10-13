@@ -1,6 +1,6 @@
 # agent-skills
 
-Personal collection of 49 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
+Personal collection of 50 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
 
 ## Install
 
@@ -84,11 +84,12 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`vibe-coding-architecture-at-scale`](skills/vibe-coding-architecture-at-scale) | *Vibe Coding Architecture at Scale* — Peter Isberg |
 | [`working-effectively-legacy-code`](skills/working-effectively-legacy-code) | *Working Effectively with Legacy Code* — Michael C. Feathers |
 
-## Knowledge bases — documentation and articles (4)
+## Knowledge bases — documentation and articles (5)
 
 | Skill | Source |
 |---|---|
 | [`apache-kafka-docs`](skills/apache-kafka-docs) | *Apache Kafka 4.3 Documentation* |
+| [`claude-code-docs`](skills/claude-code-docs) | the Claude Code documentation on memory, skills, subagents and hooks |
 | [`aws-agentcore-guides`](skills/aws-agentcore-guides) | Hidekazu Konishi's 15-article series on Amazon Bedrock AgentCore and enterprise AI agents |
 | [`supabase-docs`](skills/supabase-docs) | the full Supabase documentation |
 | [`supabase-self-hosting`](skills/supabase-self-hosting) | the Supabase Self-Hosting guides (Docker) |
@@ -96,6 +97,6 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 ## Notes
 
 - The knowledge-base skills contain **synthesized summaries**: frameworks, principles, techniques and anti-patterns, organized for an agent to consult. They do not reproduce the original text and do not replace the works. All rights to the books and their content belong to their authors and publishers. Read the originals.
-- `apache-kafka-docs` derives from the Apache Kafka documentation (Apache License 2.0). `supabase-*` derive from the public Supabase documentation.
+- `apache-kafka-docs` derives from the Apache Kafka documentation (Apache License 2.0). `supabase-*` derive from the public Supabase documentation. `claude-code-docs` derives from the public Claude Code documentation (code.claude.com/docs).
 - Some tool skills (`aporte-dividendos`, `book-to-anki`) were built for a specific local setup and reference paths and agents from that environment. Adjust them before use.
 - Investment-related skills (`aporte-dividendos`, `barsi-dividendos`, `dornelas-fiis`) are study material, not financial advice.
