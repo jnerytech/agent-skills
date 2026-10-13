@@ -1,6 +1,6 @@
 # agent-skills
 
-Personal collection of 46 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
+Personal collection of 47 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
 
 ## Install
 
@@ -40,7 +40,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`pareto-study-kit`](skills/pareto-study-kit) | Generates Anki-importable flashcards and 4-option multiple-choice quiz files from a chapter (PDF or Markdown), focused on the 20% of the content that drives 80%… |
 | [`pdf-chapter-splitter`](skills/pdf-chapter-splitter) | Splits a PDF book into one PDF per chapter, using the PDF's own embedded bookmarks/outline to find chapter boundaries. |
 
-## Knowledge bases — books (36)
+## Knowledge bases — books (37)
 
 | Skill | Source |
 |---|---|
@@ -60,6 +60,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`dobovizki-csharp-concurrency`](skills/dobovizki-csharp-concurrency) | *C# Concurrency* — Nir Dobovizki |
 | [`docs-for-developers`](skills/docs-for-developers) | *Docs for Developers: An Engineer's Field Guide to Technical Writing* — Jared Bhatti, Zachary Sarah Corleissen, Jen Lambourne, David Nunez & Heidi Waterhouse |
 | [`dornelas-fiis`](skills/dornelas-fiis) | *Aprenda a Investir em Fundos Imobiliários* — Eric Dornelas |
+| [`enterprise-vibe-coding`](skills/enterprise-vibe-coding) | *Enterprise Vibe Coding for Agentic Engineering* — Valentina Alto |
 | [`fifty-quick-ideas-tests`](skills/fifty-quick-ideas-tests) | *Fifty Quick Ideas to Improve Your Tests* — Gojko Adzic, David Evans & Tom Roden |
 | [`fowler-refactoring`](skills/fowler-refactoring) | *Refatoração: Aperfeiçoando o Projeto de Código Existente, 2ª ed* — Martin Fowler |
 | [`google-sre`](skills/google-sre) | *Site Reliability Engineering: How Google Runs Production Systems* — Betsy Beyer, Chris Jones, Jennifer Petoff & Niall Richard Murphy |
