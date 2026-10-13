@@ -1,6 +1,6 @@
 # agent-skills
 
-Personal collection of 47 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
+Personal collection of 48 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
 
 ## Install
 
@@ -40,7 +40,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`pareto-study-kit`](skills/pareto-study-kit) | Generates Anki-importable flashcards and 4-option multiple-choice quiz files from a chapter (PDF or Markdown), focused on the 20% of the content that drives 80%… |
 | [`pdf-chapter-splitter`](skills/pdf-chapter-splitter) | Splits a PDF book into one PDF per chapter, using the PDF's own embedded bookmarks/outline to find chapter boundaries. |
 
-## Knowledge bases — books (37)
+## Knowledge bases — books (38)
 
 | Skill | Source |
 |---|---|
@@ -80,6 +80,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`specification-by-example`](skills/specification-by-example) | *Specification by Example: How Successful Teams Deliver the Right Software* — Gojko Adzic |
 | [`the-kubernetes-book`](skills/the-kubernetes-book) | *The Kubernetes Book (2024)* — Nigel Poulton |
 | [`unix-linux-sysadmin`](skills/unix-linux-sysadmin) | *UNIX and Linux System Administration Handbook, 5th ed (2017)* — Nemeth, Snyder, Hein, Whaley & Mackin |
+| [`vibe-coding-architecture-at-scale`](skills/vibe-coding-architecture-at-scale) | *Vibe Coding Architecture at Scale* — Peter Isberg |
 | [`working-effectively-legacy-code`](skills/working-effectively-legacy-code) | *Working Effectively with Legacy Code* — Michael C. Feathers |
 
 ## Knowledge bases — documentation and articles (4)
