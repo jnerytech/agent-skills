@@ -1,6 +1,6 @@
 # agent-skills
 
-Personal collection of 48 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
+Personal collection of 49 agent skills (Claude Code, GitHub Copilot CLI, Amp, Codex, OpenCode and other Agent Skills hosts). Most are knowledge bases generated from technical and finance books with [book-to-skill](https://github.com/virgiliojr94/book-to-skill). The rest are study and investing tools.
 
 ## Install
 
@@ -40,7 +40,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`pareto-study-kit`](skills/pareto-study-kit) | Generates Anki-importable flashcards and 4-option multiple-choice quiz files from a chapter (PDF or Markdown), focused on the 20% of the content that drives 80%… |
 | [`pdf-chapter-splitter`](skills/pdf-chapter-splitter) | Splits a PDF book into one PDF per chapter, using the PDF's own embedded bookmarks/outline to find chapter boundaries. |
 
-## Knowledge bases — books (38)
+## Knowledge bases — books (39)
 
 | Skill | Source |
 |---|---|
@@ -49,6 +49,7 @@ Each skill lives in `skills/<name>/` with its own `SKILL.md`. The knowledge-base
 | [`art-of-unit-testing`](skills/art-of-unit-testing) | *The Art of Unit Testing, Third Edition — with examples in JavaScript* — Roy Osherove |
 | [`barsi-dividendos`](skills/barsi-dividendos) | *O Rei dos Dividendos: A Saga* — Luiz Barsi Filho |
 | [`beck-tdd`](skills/beck-tdd) | *TDD: Desenvolvimento Guiado por Testes (Test Driven Development: By Example)* — Kent Beck |
+| [`beyond-vibe-coding`](skills/beyond-vibe-coding) | *Beyond Vibe Coding: From Coding by Instinct to Coding with Purpose* — Addy Osmani |
 | [`brownfield-dotnet`](skills/brownfield-dotnet) | *Brownfield Application Development in .NET* — Kyle Baley & Donald Belcham |
 | [`clean-code-in-python`](skills/clean-code-in-python) | *Clean Code in Python, 2nd Edition* — Mariano Anaya |
 | [`cohn-user-stories`](skills/cohn-user-stories) | *User Stories Applied: For Agile Software Development* — Mike Cohn |
